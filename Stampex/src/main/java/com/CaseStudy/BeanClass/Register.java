@@ -1,4 +1,4 @@
-package com.CaseStudy.Stampex;
+package com.CaseStudy.BeanClass;
 
 public class Register{
     private String firstName;
@@ -55,13 +55,12 @@ public class Register{
         return phoneNo;
     }
     public void setPhoneNo(long phoneNo) {
-		// TODO Auto-generated method stub
-		this.phoneNo=phoneNo;
-	}
+        this.phoneNo = phoneNo;
+    }
+    
     @Override
     public String toString() {
         return "Register [firstName=" + firstName + ", lastName=" + lastName + ", userName=" + userName + ", password=" +
             password + ", emailId=" + emailId + ", phoneNo=" + phoneNo + "]";
     }
-	
 }
